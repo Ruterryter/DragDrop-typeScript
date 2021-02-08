@@ -1,5 +1,5 @@
-namespace App {
-  // Validation
+
+
 export interface Validatable {
   value: string | number;
   required?: boolean;
@@ -43,4 +43,4 @@ export function validate(validatableInput: Validatable) {
   return isValid;
 }
 
-}
+
